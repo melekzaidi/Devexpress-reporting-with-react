@@ -6,7 +6,7 @@ import '@devexpress/analytics-core/dist/css/dx-analytics.common.css';
 import '@devexpress/analytics-core/dist/css/dx-analytics.light.css';
 import 'devexpress-reporting/dist/css/dx-webdocumentviewer.css';
 interface ReportComponentProps {
-  src: string;
+  src: string; 
   reportName: string;
 }
 
@@ -17,7 +17,7 @@ export default function ReportComponent({ src, reportName }: ReportComponentProp
 
   return (
     <Box className="report-container">
-<div style={{ width: '100%', height: 'calc(100vh - 60px)', overflow: 'auto' }}>
+<div style={{ width: '100%', overflow: 'auto' }}>
 {/* Utiliser l'URL du rapport avec le filtre */}
 <ReportViewer
   reportUrl={reportName}
