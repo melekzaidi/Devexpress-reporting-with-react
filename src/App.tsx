@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-   <ReportComponent src="http://localhost:45457/" reportName='Report1'/>    </>
+   <ReportComponent src="http://localhost:5000/" reportName='Report1'/>    </>
   )
 }
 
