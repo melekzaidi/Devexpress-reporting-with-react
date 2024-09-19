@@ -1,4 +1,4 @@
-import ReportViewer, { Callbacks, RequestOptions } from 'devexpress-reporting-react/dx-report-viewer';
+import ReportViewer, {  RequestOptions } from 'devexpress-reporting-react/dx-report-viewer';
 import './indexdev.css';
 import { Box } from '@mui/material';
 import 'devextreme/dist/css/dx.light.css';
