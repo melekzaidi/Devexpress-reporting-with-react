@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-   <ReportComponent src="http://102.211.210.112:5001/" reportName='Report1'/>    </>
+   <ReportComponent src="http://localhost:5001/" reportName='Report1'/>    </>
   )
 }
 
